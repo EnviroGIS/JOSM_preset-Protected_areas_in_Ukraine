@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" 
+	author="anton.biatov[at]gmail.com"
+	version="2.2_2015-02-25"
+	shortdescription="Conservation area in Ukraine" 
+	description="Preset for Conservation area of Ukraine"
+	uk.shortdescription="Природно-заповідний фонд України" 
+	uk.description="Шаблон для картування природно-заповідного фонду України"
+	ru.shortdescription="Природно-заповедный фонд Украины" 
+	ru.description="Шаблон для картирования природно-заповедного фонда Украины"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://josm.openstreetmap.de/tagging-preset-1.0 tagging-preset.xsd" >
+<group name="Conservation area of Ukraine" uk.name="Природно-заповідний фонд України" ru.name="ПЗФ Украины">
+  <item name="Protected site"  uk.name="Заказник" ru.name="Заказник" type="closedway">
+    <label text="Protected site" uk.text="Заказник" ru.text="Заказник"/>
+    <text key="name" text="Name" uk.name="Назва" ru.name="Название"/>
+    <text key="name:uk" text="Name_uk" uk.name="Назва_uk" ru.name="Название_uk"/>
+    <text key="name:ru" text="Name_ru" uk.name="Назва_ru" ru.name="Название_ru"/>
+    <text key="name:en" text="Name_en" uk.name="Назва_en" ru.name="Название_en"/>
+        <key key="boundary" value="protected_area" />
+        <key key="protect_class" value="4" />
+        <key key="protection_title" value="protected_site" />
+        <combo text="Protection status" uk.text="Значення території" ru.text="Значение территории" key="protection_status" default="local" >
+            <list_entry value="local" short_description="local" uk.short_description="місцеве" ru.short_description="местное" />
+            <list_entry value="state" short_description="state" uk.short_description="державне" ru.short_description="государственное" />
+        </combo>
+        <combo text="Referencing" uk.text="Точність карти" ru.text="Точность карты" key="note" default="referencing is normal" >
+            <list_entry value="referencing is bad" short_description="referencing is bad" uk.short_description="погана точність та карта" ru.short_description="плохая точность карты" />
+            <list_entry value="referencing is normal" short_description="referencing is normal" uk.short_description="середня точність та карта" ru.short_description="средняя точность карты" />
+            <list_entry value="referencing is good" short_description="referencing is good" uk.short_description="гарна точність та карта" ru.short_description="хорошая точность карты" />
+        </combo>
+  </item>
+  <item name="Nature monument"  uk.name="Пам’ятка природи" ru.name="Памятник природы" type="closedway">
+    <label text="Nature monument" uk.text="Пам’ятка природи" ru.text="Памятник природы"/>
+    <text key="name" text="Name" uk.name="Назва" ru.name="Название"/>
+    <text key="name:uk" text="Name_uk" uk.name="Назва_uk" ru.name="Название_uk"/>
+    <text key="name:ru" text="Name_ru" uk.name="Назва_ru" ru.name="Название_ru"/>
+    <text key="name:en" text="Name_en" uk.name="Назва_en" ru.name="Название_en"/>
+        <key key="boundary" value="protected_area" />
+        <key key="protect_class" value="3" />
+        <key key="protection_title" value="nature_monument" />
+        <combo text="Protection status" uk.text="Значення території" ru.text="Значение территории" key="protection_status" default="local" >
+            <list_entry value="local" short_description="local" uk.short_description="місцеве" ru.short_description="местное" />
+            <list_entry value="state" short_description="state" uk.short_description="державне" ru.short_description="государственное" />
+        </combo>
+        <combo text="Referencing" uk.text="Точність карти" ru.text="Точность карты" key="note" default="referencing is normal" >
+            <list_entry value="referencing is bad" short_description="referencing is bad" uk.short_description="погана точність та карта" ru.short_description="плохая точность карты" />
+            <list_entry value="referencing is normal" short_description="referencing is normal" uk.short_description="середня точність та карта" ru.short_description="средняя точность карты" />
+            <list_entry value="referencing is good" short_description="referencing is good" uk.short_description="гарна точність та карта" ru.short_description="хорошая точность карты" />
+        </combo>
+  </item>
+  <item name="Conservation stow"  uk.name="Заповідне урочище" ru.name="Заповедное урочище" type="closedway">
+    <label text="Conservation stow" uk.text="Заповідне урочище" ru.text="Заповедное урочище"/>
+    <text key="name" text="Name" uk.name="Назва" ru.name="Название"/>
+    <text key="name:uk" text="Name_uk" uk.name="Назва_uk" ru.name="Название_uk"/>
+    <text key="name:ru" text="Name_ru" uk.name="Назва_ru" ru.name="Название_ru"/>
+    <text key="name:en" text="Name_en" uk.name="Назва_en" ru.name="Название_en"/>
+        <key key="boundary" value="protected_area" />
+        <key key="protect_class" value="4" />
+        <key key="protection_title" value="conservation_stow" />
+        <combo text="Protection status" uk.text="Значення території" ru.text="Значение территории" key="protection_status" default="local" >
+            <list_entry value="local" short_description="local" uk.short_description="місцеве" ru.short_description="местное" />
+            <list_entry value="state" short_description="state" uk.short_description="державне" ru.short_description="государственное" />
+        </combo>
+        <combo text="Referencing" uk.text="Точність карти" ru.text="Точность карты" key="note" default="referencing is normal" >
+            <list_entry value="referencing is bad" short_description="referencing is bad" uk.short_description="погана точність та карта" ru.short_description="плохая точность карты" />
+            <list_entry value="referencing is normal" short_description="referencing is normal" uk.short_description="середня точність та карта" ru.short_description="средняя точность карты" />
+            <list_entry value="referencing is good" short_description="referencing is good" uk.short_description="гарна точність та карта" ru.short_description="хорошая точность карты" />
+        </combo>
+  </item>
+<separator/>
+  <item name="Regional landscape park"  uk.name="Регіональний ландшафтний парк (РЛП)" ru.name="Региональний ландшафтный парк (РЛП)" type="closedway">
+    <label text="Regional landscape park" uk.text="Регіональний ландшафтний парк (РЛП)" ru.text="Региональний ландшафтный парк (РЛП)"/>
+    <text key="name" text="Name" uk.name="Назва" ru.name="Название"/>
+    <text key="name:uk" text="Name_uk" uk.name="Назва_uk" ru.name="Название_uk"/>
+    <text key="name:ru" text="Name_ru" uk.name="Назва_ru" ru.name="Название_ru"/>
+    <text key="name:en" text="Name_en" uk.name="Назва_en" ru.name="Название_en"/>
+        <key key="boundary" value="protected_area" />
+        <key key="protect_class" value="5" />
+        <key key="protection_title" value="regional_landscape_park" />
+        <combo text="Protection status" uk.text="Значення території" ru.text="Значение территории" key="protection_status" default="local" >
+            <list_entry value="local" short_description="local" uk.short_description="місцеве" ru.short_description="местное" />
+            <list_entry value="state" short_description="state" uk.short_description="державне" ru.short_description="государственное" />
+        </combo>
+        <combo text="Referencing" uk.text="Точність карти" ru.text="Точность карты" key="note" default="referencing is normal" >
+            <list_entry value="referencing is bad" short_description="referencing is bad" uk.short_description="погана точність та карта" ru.short_description="плохая точность карты" />
+            <list_entry value="referencing is normal" short_description="referencing is normal" uk.short_description="середня точність та карта" ru.short_description="средняя точность карты" />
+            <list_entry value="referencing is good" short_description="referencing is good" uk.short_description="гарна точність та карта" ru.short_description="хорошая точность карты" />
+        </combo>
+  </item>
+<separator/>
+  <item name="National park"  uk.name="Національний природний парк (НПП)" ru.name="Национальный природный парк (НПП)" type="closedway">
+    <label text="National park" uk.text="Національний природний парк (НПП)" ru.text="Национальный природный парк (НПП)"/>
+    <text key="name" text="Name" uk.name="Назва" ru.name="Название"/>
+    <text key="name:uk" text="Name_uk" uk.name="Назва_uk" ru.name="Название_uk"/>
+    <text key="name:ru" text="Name_ru" uk.name="Назва_ru" ru.name="Название_ru"/>
+    <text key="name:en" text="Name_en" uk.name="Назва_en" ru.name="Название_en"/>
+        <key key="boundary" value="national_park" />
+        <key key="protect_class" value="2" />
+        <key key="protection_title" value="national_park" />
+        <key key="protection_status" value="state" />
+        <combo text="Referencing" uk.text="Точність карти" ru.text="Точность карты" key="note" default="referencing is normal" >
+            <list_entry value="referencing is bad" short_description="referencing is bad" uk.short_description="погана точність та карта" ru.short_description="плохая точность карты" />
+            <list_entry value="referencing is normal" short_description="referencing is normal" uk.short_description="середня точність та карта" ru.short_description="средняя точность карты" />
+            <list_entry value="referencing is good" short_description="referencing is good" uk.short_description="гарна точність та карта" ru.short_description="хорошая точность карты" />
+        </combo>
+  </item>
+  <item name="Nature reserve"  uk.name="Природний заповідник" ru.name="Природный заповедник" type="closedway">
+    <label text="Nature reserve" uk.text="Природний заповідник" ru.text="Природный заповедник"/>
+    <text key="name" text="Name" uk.name="Назва" ru.name="Название"/>
+    <text key="name:uk" text="Name_uk" uk.name="Назва_uk" ru.name="Название_uk"/>
+    <text key="name:ru" text="Name_ru" uk.name="Назва_ru" ru.name="Название_ru"/>
+    <text key="name:en" text="Name_en" uk.name="Назва_en" ru.name="Название_en"/>
+        <key key="boundary" value="protected_area" />
+        <key key="protect_class" value="1" />
+        <key key="protection_title" value="nature_reserve" />
+        <key key="protection_status" value="state" />
+        <combo text="Referencing" uk.text="Точність карти" ru.text="Точность карты" key="note" default="referencing is normal" >
+            <list_entry value="referencing is bad" short_description="referencing is bad" uk.short_description="погана точність та карта" ru.short_description="плохая точность карты" />
+            <list_entry value="referencing is normal" short_description="referencing is normal" uk.short_description="середня точність та карта" ru.short_description="средняя точность карты" />
+            <list_entry value="referencing is good" short_description="referencing is good" uk.short_description="гарна точність та карта" ru.short_description="хорошая точность карты" />
+        </combo>
+  </item>
+  <item name="Biosphere reserve"  uk.name="Біосферний заповідник" ru.name="Биосферный заповедник" type="closedway">
+    <label text="Biosphere reserve" uk.text="Біосферний заповідник" ru.text="Биосферный заповедник"/>
+    <text key="name" text="Name" uk.name="Назва" ru.name="Название"/>
+    <text key="name:uk" text="Name_uk" uk.name="Назва_uk" ru.name="Название_uk"/>
+    <text key="name:ru" text="Name_ru" uk.name="Назва_ru" ru.name="Название_ru"/>
+    <text key="name:en" text="Name_en" uk.name="Назва_en" ru.name="Название_en"/>
+        <key key="boundary" value="protected_area" />
+        <key key="protect_class" value="98" />
+        <key key="protection_title" value="biosphere_reserve" />
+        <key key="protection_status" value="state" />
+        <combo text="Referencing" uk.text="Точність карти" ru.text="Точность карты" key="note" default="referencing is normal" >
+            <list_entry value="referencing is bad" short_description="referencing is bad" uk.short_description="погана точність та карта" ru.short_description="плохая точность карты" />
+            <list_entry value="referencing is normal" short_description="referencing is normal" uk.short_description="середня точність та карта" ru.short_description="средняя точность карты" />
+            <list_entry value="referencing is good" short_description="referencing is good" uk.short_description="гарна точність та карта" ru.short_description="хорошая точность карты" />
+        </combo>
+  </item>
+<separator/>
+  <item name="Park monument of landscape art"  uk.name="Парк-пам’ятка садово-паркового мистецтва" ru.name="Парк-памятник садово-паркового искуства" type="closedway">
+    <label text="Park monument of landscape art" uk.text="Парк-пам’ятка садово-паркового мистецтва" ru.text="Парк-памятник садово-паркового искуства"/>
+    <text key="name" text="Name" uk.name="Назва" ru.name="Название"/>
+    <text key="name:uk" text="Name_uk" uk.name="Назва_uk" ru.name="Название_uk"/>
+    <text key="name:ru" text="Name_ru" uk.name="Назва_ru" ru.name="Название_ru"/>
+    <text key="name:en" text="Name_en" uk.name="Назва_en" ru.name="Название_en"/>
+        <key key="boundary" value="protected_area" />
+        <key key="protect_class" value="5" />
+        <key key="protection_title" value="park_monument_of_landscape_art" />
+        <combo text="Protection status" uk.text="Значення території" ru.text="Значение территории" key="protection_status" default="local" >
+            <list_entry value="local" short_description="local" uk.short_description="місцеве" ru.short_description="местное" />
+            <list_entry value="state" short_description="state" uk.short_description="державне" ru.short_description="государственное" />
+        </combo>
+        <combo text="Referencing" uk.text="Точність карти" ru.text="Точность карты" key="note" default="referencing is normal" >
+            <list_entry value="referencing is bad" short_description="referencing is bad" uk.short_description="погана точність та карта" ru.short_description="плохая точность карты" />
+            <list_entry value="referencing is normal" short_description="referencing is normal" uk.short_description="середня точність та карта" ru.short_description="средняя точность карты" />
+            <list_entry value="referencing is good" short_description="referencing is good" uk.short_description="гарна точність та карта" ru.short_description="хорошая точность карты" />
+        </combo>
+  </item>
+  <item name="Dendrological_park"  uk.name="Дендрологічний парк" ru.name="Дедндропарк" type="closedway">
+    <label text="Dendrological_park" uk.text="Дендрологічний парк" ru.text="Дедндропарк"/>
+    <text key="name" text="Name" uk.name="Назва" ru.name="Название"/>
+    <text key="name:uk" text="Name_uk" uk.name="Назва_uk" ru.name="Название_uk"/>
+    <text key="name:ru" text="Name_ru" uk.name="Назва_ru" ru.name="Название_ru"/>
+    <text key="name:en" text="Name_en" uk.name="Назва_en" ru.name="Название_en"/>
+        <key key="boundary" value="protected_area" />
+        <key key="protect_class" value="5" />
+        <key key="protection_title" value="dendrological_park" />
+        <combo text="Protection status" uk.text="Значення території" ru.text="Значение территории" key="protection_status" default="local" >
+            <list_entry value="local" short_description="local" uk.short_description="місцеве" ru.short_description="местное" />
+            <list_entry value="state" short_description="state" uk.short_description="державне" ru.short_description="государственное" />
+        </combo>
+        <combo text="Referencing" uk.text="Точність карти" ru.text="Точность карты" key="note" default="referencing is normal" >
+            <list_entry value="referencing is bad" short_description="referencing is bad" uk.short_description="погана точність та карта" ru.short_description="плохая точность карты" />
+            <list_entry value="referencing is normal" short_description="referencing is normal" uk.short_description="середня точність та карта" ru.short_description="средняя точность карты" />
+            <list_entry value="referencing is good" short_description="referencing is good" uk.short_description="гарна точність та карта" ru.short_description="хорошая точность карты" />
+        </combo>
+  </item>
+  <item name="Botanic garden"  uk.name="Ботанічний сад" ru.name="Ботанический сад" type="closedway">
+    <label text="Botanic garden" uk.text="Ботанічний сад" ru.text="Ботанический сад"/>
+    <text key="name" text="Name" uk.name="Назва" ru.name="Название"/>
+    <text key="name:uk" text="Name_uk" uk.name="Назва_uk" ru.name="Название_uk"/>
+    <text key="name:ru" text="Name_ru" uk.name="Назва_ru" ru.name="Название_ru"/>
+    <text key="name:en" text="Name_en" uk.name="Назва_en" ru.name="Название_en"/>
+        <key key="boundary" value="protected_area" />
+        <key key="protect_class" value="5" />
+        <key key="protection_title" value="botanic_garden" />
+        <combo text="Protection status" uk.text="Значення території" ru.text="Значение территории" key="protection_status" default="local" >
+            <list_entry value="local" short_description="local" uk.short_description="місцеве" ru.short_description="местное" />
+            <list_entry value="state" short_description="state" uk.short_description="державне" ru.short_description="государственное" />
+        </combo>
+        <combo text="Referencing" uk.text="Точність карти" ru.text="Точность карты" key="note" default="referencing is normal" >
+            <list_entry value="referencing is bad" short_description="referencing is bad" uk.short_description="погана точність та карта" ru.short_description="плохая точность карты" />
+            <list_entry value="referencing is normal" short_description="referencing is normal" uk.short_description="середня точність та карта" ru.short_description="средняя точность карты" />
+            <list_entry value="referencing is good" short_description="referencing is good" uk.short_description="гарна точність та карта" ru.short_description="хорошая точность карты" />
+        </combo>
+  </item>
+
+  <item name="Zoological park"  uk.name="Зоологічний парк" ru.name="Зоопарк" type="closedway">
+    <label text="Zoological park" uk.text="Зоологічний парк" ru.text="Зоопарк"/>
+    <text key="name" text="Name" uk.name="Назва" ru.name="Название"/>
+    <text key="name:uk" text="Name_uk" uk.name="Назва_uk" ru.name="Название_uk"/>
+    <text key="name:ru" text="Name_ru" uk.name="Назва_ru" ru.name="Название_ru"/>
+    <text key="name:en" text="Name_en" uk.name="Назва_en" ru.name="Название_en"/>
+        <key key="boundary" value="protected_area" />
+        <key key="protect_class" value="5" />
+        <key key="protection_title" value="zoological_park" />
+        <combo text="Protection status" uk.text="Значення території" ru.text="Значение территории" key="protection_status" default="local" >
+            <list_entry value="local" short_description="local" uk.short_description="місцеве" ru.short_description="местное" />
+            <list_entry value="state" short_description="state" uk.short_description="державне" ru.short_description="государственное" />
+        </combo>
+        <combo text="Referencing" uk.text="Точність карти" ru.text="Точность карты" key="note" default="referencing is normal" >
+            <list_entry value="referencing is bad" short_description="referencing is bad" uk.short_description="погана точність та карта" ru.short_description="плохая точность карты" />
+            <list_entry value="referencing is normal" short_description="referencing is normal" uk.short_description="середня точність та карта" ru.short_description="средняя точность карты" />
+            <list_entry value="referencing is good" short_description="referencing is good" uk.short_description="гарна точність та карта" ru.short_description="хорошая точность карты" />
+        </combo>
+  </item>
+</group>
+</presets>
+
